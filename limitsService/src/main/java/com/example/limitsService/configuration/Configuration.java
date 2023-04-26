@@ -6,7 +6,7 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Data
-@ConfigurationProperties("limit-service")
+@ConfigurationProperties("limit-server")
 public class Configuration {
     private int maximum;
     private int minimum;
